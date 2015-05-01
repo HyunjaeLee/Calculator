@@ -9,7 +9,6 @@ public class Amend{
 			list.remove(firstIndex);
 		}
 		list.addAll(firstIndex,new ArrayList<T>(Arrays.asList(value)));
-		System.out.println(list.toString());
 		return list;
 	}
 }

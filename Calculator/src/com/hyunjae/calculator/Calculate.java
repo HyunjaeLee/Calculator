@@ -22,7 +22,6 @@ public class Calculate {
 			lastIndex=additionIndex[1];
 			defaultIndex=additionIndex[2];
 			value=Build.expression(expressionList, firstIndex, lastIndex, defaultIndex);
-			System.out.println(value[0]+", "+value[1]);
 			total=value[0].add(value[1]);
 			Amend.set(expressionList, firstIndex, lastIndex, total.toString());
 		}
